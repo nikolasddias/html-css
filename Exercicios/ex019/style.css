@@ -1,0 +1,45 @@
+@charset "UTF-8";
+ 
+/* Tudo que é ID em HTML vira # em CSS (Só um elemento)
+   Tudo que é CLASS em HTML vira . em CSS (Mais de um elemento)
+*/ 
+
+body {
+    background-color: #94eca7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   color: #40704A;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #29472F;
+    color:white
+}
+
+h2 {
+  color: #579965;
+}
+
+.basico {
+    color: #579965;
+    font-weight: bold;
+    
+}
+
+.intermediario {
+    color: #989957;
+    font-weight: bold;
+}
+
+.avancado {
+    color: #995757;
+    font-weight: bold;
+}
+
+.destaque {
+    background-color: rgba(145, 145, 51, 0.61);
+}
+
